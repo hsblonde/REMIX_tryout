@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS d_survey_type_gv; CREATE TABLE d_survey_type_gv ( code smallint  NOT NULL, description character varying(250)  NULL, valid_from_survey_year smallint  NOT NULL, valid_to_survey_year smallint  NULL, CONSTRAINT d_survey_type_gv_pk     PRIMARY KEY (code, valid_from_survey_year));

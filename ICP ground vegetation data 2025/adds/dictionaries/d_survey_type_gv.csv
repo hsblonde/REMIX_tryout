@@ -1,0 +1,6 @@
+code;description;valid_from_survey_year;valid_to_survey_year
+1;CSA (Common Sample Area), 400m²;1984;
+2;SSA (Standardized Sampling Area) (each 100m²);1984;
+3;Addional Species List of CSA (2100m²);1984;
+4;Other (e.g. for population studies);1984;
+-99;UNKNOWN;1984;2010

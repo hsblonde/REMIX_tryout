@@ -1,0 +1,10 @@
+code;description;valid_from_survey_year;valid_to_survey_year
+1;Uncertain on species level, species could be same than already listed species in the survey (Genus sp.). Species code ends with .999.;1984;
+2;Uncertain on species level, but certain that species is different to listed species of same genus (Genus sp.). Species code ends with .999.;1984;
+3;Cf., uncertain on species level, but very likely the specified species (Genus cf. species).;1984;
+4;agg./x: aggregated species/hybrids: group). Species determination/taxonomic ranking is rather complicate due to hybridization among several recognized species and/or apomictic plants (e.g. Taraxacum officinale agg. / group);1984;
+5;Certain on species level.;1984;
+6;Certain on species level, but uncertain on subspecies level (Genus species cf. subspecies). Specify subspecies in other observations.;1984;
+7;Certain on subspecies level (Genus species subspecies). Specify subspecies in other observations).;1984;
+8;Certain on variant level (Genus species subspecies variety). Specify subspecies and variety in other observations).;1984;
+99;NOT KNOWN;1984;2010

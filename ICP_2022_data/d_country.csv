@@ -1,0 +1,39 @@
+code;lib_country;code_iso;code_fimci;valid_from_survey_year;valid_to_survey_year;eu
+1;France;FR;1;1984;;f
+2;Belgium;BE;2;1984;;f
+3;Netherlands;NL;3;1984;;f
+4;Germany;DE;4;1984;;f
+5;Italy;IT;5;1984;;f
+6;United Kingdom;UK;6;1984;;f
+7;Ireland;IE;7;1984;;f
+8;Denmark;DK;8;1984;;f
+9;Greece;GR;9;1984;;f
+10;Portugal;PT;10;1984;;f
+11;Spain;ES;11;1984;;f
+12;Luxembourg;LU;12;1984;;f
+13;Sweden;SE;13;1984;;f
+14;Austria;AT;14;1984;;f
+15;Finland;FI;15;1984;;f
+50;Switzerland;CH;20;1984;;f
+51;Hungary;HU;21;1984;;f
+52;Romania;RO;16;1984;;f
+53;Poland;PL;17;1984;;f
+54;Slovak Republic;SK;18;1984;;f
+55;Norway;NO;19;1984;;f
+56;Lithuania;LT;22;1984;;f
+57;Croatia;HR;23;1984;;f
+58;Czech Republic;CZ;24;1984;;f
+59;Estonia;EE;25;1984;;f
+60;Slovenia;SI;26;1984;;f
+61;Republic of Moldova;MD;27;1984;;f
+62;Russia;RU;32;1984;;f
+63;Bulgaria;BG;29;1984;;f
+64;Latvia;LV;30;1984;;f
+65;Belarus;BY;28;1984;;f
+66;Cyprus;CY;36;1984;;f
+67;Serbia;CS;34;1984;;f
+68;Andorra;AD;;1984;;f
+95;Canaries (Spain);cn;;1984;;f
+80;Montenegro;ME;80;1984;;f
+96;Azores (Portugal);AZ;;1984;;f
+72;Türkiye;TR;;1984;;f

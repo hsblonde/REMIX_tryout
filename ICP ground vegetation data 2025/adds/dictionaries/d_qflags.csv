@@ -1,0 +1,5 @@
+code;description;valid_from_survey_year;valid_to_survey_year
+10;Value triggered a warning message;1984;
+20;Value was manually changed by admin;1984;
+30;Content moved from another form;1984;
+90;NO DATA in corresponding data table;1984;

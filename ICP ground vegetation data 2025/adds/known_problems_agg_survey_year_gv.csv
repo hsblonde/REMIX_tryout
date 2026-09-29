@@ -1,0 +1,825 @@
+survey_code;form_id;survey_year;code_country;partner_code;attribute;test_class;val_rule_id;msg_code;error_reason;number_cases
+gv;plv;1988;2;102;total_sample_area;SQL_QUERY;GV_PLV_01;;"submitted ""total_sample_area"" does not match with ""code_survey_type""";10
+gv;plv;1992;2;102;total_sample_area;SQL_QUERY;GV_PLV_01;;"submitted ""total_sample_area"" does not match with ""code_survey_type""";2
+gv;plv;1994;50;50;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);12
+gv;plv;1995;1;1;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 2 missing in form VEM;1
+gv;plv;1995;12;12;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;48
+gv;plv;1995;14;14;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);4
+gv;plv;1995;14;14;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;4
+gv;plv;1995;50;50;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);98
+gv;plv;1995;58;58;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);3
+gv;plv;1995;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;6
+gv;plv;1996;3;3;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);4
+gv;plv;1996;3;3;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;13
+gv;plv;1996;4;2804;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);15
+gv;plv;1996;4;2804;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;50
+gv;plv;1996;9;9;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);8
+gv;plv;1996;9;9;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;8
+gv;plv;1996;14;14;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);55
+gv;plv;1996;14;14;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;55
+gv;plv;1996;50;50;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);248
+gv;plv;1996;58;58;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);1
+gv;plv;1996;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2
+gv;plv;1997;7;7;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;9
+gv;plv;1997;50;50;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);186
+gv;plv;1997;58;58;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);1
+gv;plv;1997;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;1
+gv;plv;1997;59;59;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);20
+gv;plv;1997;59;59;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;24
+gv;plv;1998;2;202;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);6
+gv;plv;1998;2;202;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 3 missing in form VEM;3
+gv;plv;1998;2;202;total_sample_area;SQL_QUERY;GV_PLV_01;;"submitted ""total_sample_area"" does not match with ""code_survey_type""";46
+gv;plv;1998;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);12
+gv;plv;1998;4;2704;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);13
+gv;plv;1998;4;2704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;15
+gv;plv;1998;4;3204;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);3
+gv;plv;1998;4;3204;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;7
+gv;plv;1998;4;3304;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);6
+gv;plv;1998;4;3304;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;14
+gv;plv;1998;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;1998;6;6;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;1998;8;8;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;1
+gv;plv;1998;8;8;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);5
+gv;plv;1998;8;8;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;15
+gv;plv;1998;10;10;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);2
+gv;plv;1998;10;10;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);9
+gv;plv;1998;10;10;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;14
+gv;plv;1998;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;31
+gv;plv;1998;50;50;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);140
+gv;plv;1998;58;58;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);1
+gv;plv;1998;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;1
+gv;plv;1999;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);12
+gv;plv;1999;4;2704;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);12
+gv;plv;1999;4;2704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;12
+gv;plv;1999;4;2904;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;6
+gv;plv;1999;4;3304;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);6
+gv;plv;1999;4;3304;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;14
+gv;plv;1999;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;1999;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);4
+gv;plv;1999;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);38
+gv;plv;1999;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;38
+gv;plv;1999;8;8;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;1
+gv;plv;1999;8;8;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);5
+gv;plv;1999;8;8;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;15
+gv;plv;1999;11;11;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);23
+gv;plv;1999;11;11;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;1
+gv;plv;1999;11;11;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);27
+gv;plv;1999;11;11;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;53
+gv;plv;1999;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;6
+gv;plv;1999;50;50;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);320
+gv;plv;1999;53;53;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);52
+gv;plv;1999;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;1
+gv;plv;1999;64;64;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2
+gv;plv;2000;1;1;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;9
+gv;plv;2000;1;1;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 2 missing in form VEM;8
+gv;plv;2000;3;3;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);5
+gv;plv;2000;3;3;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;14
+gv;plv;2000;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);12
+gv;plv;2000;4;2704;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);13
+gv;plv;2000;4;2704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;15
+gv;plv;2000;4;2804;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);15
+gv;plv;2000;4;2804;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;50
+gv;plv;2000;4;2904;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;23
+gv;plv;2000;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2000;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);6
+gv;plv;2000;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);50
+gv;plv;2000;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;50
+gv;plv;2000;8;8;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;1
+gv;plv;2000;8;8;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);8
+gv;plv;2000;8;8;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;20
+gv;plv;2000;12;12;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;32
+gv;plv;2000;13;13;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;37
+gv;plv;2000;13;1301;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);2
+gv;plv;2000;13;1301;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;61
+gv;plv;2000;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;6
+gv;plv;2000;52;52;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);1
+gv;plv;2000;52;52;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);3
+gv;plv;2000;52;52;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;7
+gv;plv;2000;58;58;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);7
+gv;plv;2000;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;11
+gv;plv;2001;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);12
+gv;plv;2001;4;2704;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);13
+gv;plv;2001;4;2704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;15
+gv;plv;2001;4;2804;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);15
+gv;plv;2001;4;2804;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;50
+gv;plv;2001;4;2904;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;6
+gv;plv;2001;4;3104;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2001;4;3104;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2
+gv;plv;2001;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2001;4;3704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;10
+gv;plv;2001;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);4
+gv;plv;2001;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);40
+gv;plv;2001;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;40
+gv;plv;2001;6;6;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2001;10;10;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);4
+gv;plv;2001;10;10;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);16
+gv;plv;2001;10;10;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;28
+gv;plv;2001;14;14;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);59
+gv;plv;2001;14;14;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;59
+gv;plv;2001;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;6
+gv;plv;2001;50;50;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);320
+gv;plv;2001;51;51;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);50
+gv;plv;2001;51;51;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;50
+gv;plv;2001;59;59;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);6
+gv;plv;2001;59;59;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;6
+gv;plv;2002;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);12
+gv;plv;2002;4;2704;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);12
+gv;plv;2002;4;3104;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2002;4;3104;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2
+gv;plv;2002;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2002;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);2
+gv;plv;2002;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);24
+gv;plv;2002;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;24
+gv;plv;2002;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;6
+gv;plv;2003;2;202;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);6
+gv;plv;2003;2;202;total_sample_area;SQL_QUERY;GV_PLV_01;;"submitted ""total_sample_area"" does not match with ""code_survey_type""";54
+gv;plv;2003;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);12
+gv;plv;2003;4;2704;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);12
+gv;plv;2003;4;2704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;12
+gv;plv;2003;4;2904;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;6
+gv;plv;2003;4;3104;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2003;4;3104;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2
+gv;plv;2003;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2003;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);2
+gv;plv;2003;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);22
+gv;plv;2003;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;22
+gv;plv;2003;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;30
+gv;plv;2003;50;50;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);276
+gv;plv;2003;51;51;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);48
+gv;plv;2003;51;51;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;48
+gv;plv;2003;53;53;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);52
+gv;plv;2003;58;58;date_sampling;SUBMISSION RULES;189;TT_MUST_SPECIF;date not in survey_year period;3
+gv;plv;2003;58;58;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2003;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;3
+gv;plv;2004;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);12
+gv;plv;2004;4;2704;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);14
+gv;plv;2004;4;3104;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2004;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);2
+gv;plv;2004;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);22
+gv;plv;2004;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;22
+gv;plv;2004;10;10;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);2
+gv;plv;2004;10;10;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);10
+gv;plv;2004;10;10;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;16
+gv;plv;2004;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2
+gv;plv;2004;54;54;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;14
+gv;plv;2004;56;56;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;9
+gv;plv;2004;58;58;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);1
+gv;plv;2004;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2
+gv;plv;2004;60;60;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;1
+gv;plv;2004;60;60;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 2 missing in form VEM;1
+gv;plv;2004;60;60;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 3 missing in form VEM;1
+gv;plv;2004;60;60;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 1 missing in form PLD;100
+gv;plv;2004;60;60;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 2 missing in form PLD;111
+gv;plv;2004;60;60;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 3 missing in form PLD;111
+gv;plv;2004;64;64;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);1
+gv;plv;2004;64;64;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;1
+gv;plv;2004;66;66;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;8
+gv;plv;2005;1;1;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;1
+gv;plv;2005;1;1;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 2 missing in form VEM;18
+gv;plv;2005;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);12
+gv;plv;2005;4;2704;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);14
+gv;plv;2005;4;2704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;18
+gv;plv;2005;4;2904;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;23
+gv;plv;2005;4;3104;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2005;4;3104;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2
+gv;plv;2005;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2005;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);12
+gv;plv;2005;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);84
+gv;plv;2005;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;84
+gv;plv;2005;8;8;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);4
+gv;plv;2005;8;8;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;9
+gv;plv;2005;12;12;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;32
+gv;plv;2005;13;13;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;3
+gv;plv;2005;13;1301;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);2
+gv;plv;2005;13;1301;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;17
+gv;plv;2005;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;1
+gv;plv;2005;51;51;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 5 missing in form VEM;1
+gv;plv;2005;51;51;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 6 missing in form VEM;1
+gv;plv;2005;51;51;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);72
+gv;plv;2005;51;51;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;75
+gv;plv;2005;58;58;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);1
+gv;plv;2005;63;63;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2005;63;63;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;3
+gv;plv;2006;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);12
+gv;plv;2006;4;2704;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);14
+gv;plv;2006;4;3104;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2006;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2006;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);48
+gv;plv;2006;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;48
+gv;plv;2006;14;14;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);59
+gv;plv;2006;14;14;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;59
+gv;plv;2006;58;58;date_sampling;SUBMISSION RULES;189;TT_MUST_SPECIF;date not in survey_year period;4
+gv;plv;2006;58;58;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);4
+gv;plv;2006;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;4
+gv;plv;2006;59;59;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);20
+gv;plv;2006;63;63;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2006;63;63;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;3
+gv;plv;2007;2;102;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;1
+gv;plv;2007;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);12
+gv;plv;2007;4;2704;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);14
+gv;plv;2007;4;2904;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;6
+gv;plv;2007;4;3104;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2007;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);4
+gv;plv;2007;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 2 missing in form VEM;1
+gv;plv;2007;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 6 missing in form VEM;1
+gv;plv;2007;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);30
+gv;plv;2007;51;51;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);42
+gv;plv;2008;4;3104;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2008;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);4
+gv;plv;2008;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);44
+gv;plv;2008;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;44
+gv;plv;2008;50;50;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);22
+gv;plv;2008;53;53;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);51
+gv;plv;2009;2;202;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);6
+gv;plv;2009;2;202;total_sample_area;SQL_QUERY;GV_PLV_01;;"submitted ""total_sample_area"" does not match with ""code_survey_type""";48
+gv;plv;2009;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);8
+gv;plv;2009;4;2704;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);8
+gv;plv;2009;4;3104;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2009;4;3204;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);6
+gv;plv;2009;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);8
+gv;plv;2009;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);68
+gv;plv;2009;8;8;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);4
+gv;plv;2009;9;9;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);7
+gv;plv;2009;51;51;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);30
+gv;plv;2009;52;52;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);1
+gv;plv;2009;52;52;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);3
+gv;plv;2009;54;54;total_sample_area;SQL_QUERY;GV_PLV_01;;"submitted ""total_sample_area"" does not match with ""code_survey_type""";14
+gv;plv;2009;58;58;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);9
+gv;plv;2009;59;59;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 4 missing in form VEM;1
+gv;plv;2009;59;59;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);20
+gv;plv;2009;60;60;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 4 missing in form VEM;6
+gv;plv;2009;60;60;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 8 missing in form VEM;5
+gv;plv;2009;60;60;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 4 missing in form PLD;422
+gv;plv;2009;60;60;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 8 missing in form PLD;421
+gv;plv;2009;62;62;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;35
+gv;plv;2009;63;63;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2009;64;64;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);4
+gv;plv;2010;1;1;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;1
+gv;plv;2010;1;1;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 2 missing in form VEM;1
+gv;plv;2010;3;3;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);20
+gv;plv;2010;3;3;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;20
+gv;plv;2010;4;2804;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);3
+gv;plv;2010;4;3104;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2010;4;3304;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);3
+gv;plv;2010;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);12
+gv;plv;2010;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;14
+gv;plv;2010;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 2 missing in form VEM;14
+gv;plv;2010;5;5;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 3 missing in form PLD;762
+gv;plv;2010;5;5;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 4 missing in form PLD;761
+gv;plv;2010;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);56
+gv;plv;2010;8;8;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);1
+gv;plv;2010;11;11;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);23
+gv;plv;2010;11;11;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);27
+gv;plv;2010;56;56;latitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for latitude: +554978;1
+gv;plv;2010;56;56;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;9
+gv;plv;2010;62;62;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +305760;1
+gv;plv;2010;62;62;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +325460;1
+gv;plv;2010;62;62;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +342860;1
+gv;plv;2010;62;62;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;112
+gv;plv;2010;63;63;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;2
+gv;plv;2010;63;63;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 5 missing in form PLD;89
+gv;plv;2010;63;63;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2011;4;3504;total_sample_area;SQL_QUERY;GV_PLV_01;;"submitted ""total_sample_area"" does not match with ""code_survey_type""";4
+gv;plv;2011;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2011;4;3704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);16
+gv;plv;2011;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);36
+gv;plv;2011;5;5;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 3 missing in form PLD;2
+gv;plv;2011;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2011;50;50;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);318
+gv;plv;2011;51;51;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 4 missing in form PLD;1
+gv;plv;2012;2;102;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;10
+gv;plv;2012;2;102;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 2 missing in form VEM;3
+gv;plv;2012;2;102;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 3 missing in form PLD;26
+gv;plv;2012;2;102;total_sample_area;SQL_QUERY;GV_PLV_01;;"submitted ""total_sample_area"" does not match with ""code_survey_type""";3
+gv;plv;2012;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);6
+gv;plv;2012;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2012;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);36
+gv;plv;2012;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 5 missing in form VEM;23
+gv;plv;2012;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 6 missing in form VEM;22
+gv;plv;2012;5;5;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 3 missing in form PLD;947
+gv;plv;2012;5;5;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 4 missing in form PLD;973
+gv;plv;2012;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2013;4;3604;latitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for latitude: +504986;2
+gv;plv;2013;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2013;4;3604;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +140569;2
+gv;plv;2013;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);4
+gv;plv;2013;6;6;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2013;50;50;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);24
+gv;plv;2013;53;53;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);52
+gv;plv;2013;53;53;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;26
+gv;plv;2014;4;3604;latitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for latitude: +504986;3
+gv;plv;2014;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2014;4;3604;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +140569;3
+gv;plv;2014;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);4
+gv;plv;2014;53;53;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);26
+gv;plv;2014;58;58;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);4
+gv;plv;2014;64;64;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 2 missing in form VEM;1
+gv;plv;2014;64;64;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 3 missing in form VEM;1
+gv;plv;2014;64;64;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 4 missing in form VEM;1
+gv;plv;2014;64;64;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 2 missing in form PLD;17
+gv;plv;2014;64;64;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 3 missing in form PLD;15
+gv;plv;2014;64;64;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 4 missing in form PLD;15
+gv;plv;2015;1;1;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;11
+gv;plv;2015;1;1;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 2 missing in form VEM;1
+gv;plv;2015;1;1;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 5 missing in form VEM;1
+gv;plv;2015;2;202;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);6
+gv;plv;2015;2;202;total_sample_area;SQL_QUERY;GV_PLV_01;;"submitted ""total_sample_area"" does not match with ""code_survey_type""";48
+gv;plv;2015;4;3604;latitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for latitude: +504986;3
+gv;plv;2015;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2015;4;3604;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +140569;3
+gv;plv;2016;4;3604;latitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for latitude: +504986;2
+gv;plv;2016;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2016;4;3604;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +140569;2
+gv;plv;2016;4;3704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);16
+gv;plv;2016;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);8
+gv;plv;2016;6;6;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);30
+gv;plv;2016;6;6;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;30
+gv;plv;2016;6;6;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 1 missing in form PLD;426
+gv;plv;2017;2;102;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;4
+gv;plv;2017;2;102;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 2 missing in form VEM;1
+gv;plv;2017;2;102;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 3 missing in form PLD;6
+gv;plv;2017;2;102;total_sample_area;SQL_QUERY;GV_PLV_01;;"submitted ""total_sample_area"" does not match with ""code_survey_type""";1
+gv;plv;2017;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);6
+gv;plv;2017;4;3604;latitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for latitude: +504986;2
+gv;plv;2017;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2017;4;3604;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +140569;2
+gv;plv;2017;8;8;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);28
+gv;plv;2018;4;3604;latitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for latitude: +504986;2
+gv;plv;2018;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);10
+gv;plv;2018;4;3604;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +140569;2
+gv;plv;2019;4;3604;latitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for latitude: +504986;2
+gv;plv;2019;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);9
+gv;plv;2019;4;3604;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +140569;2
+gv;plv;2019;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);16
+gv;plv;2019;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 5 missing in form VEM;6
+gv;plv;2019;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 6 missing in form VEM;6
+gv;plv;2019;5;5;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 3 missing in form PLD;170
+gv;plv;2019;5;5;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 4 missing in form PLD;212
+gv;plv;2019;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2019;6;6;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);30
+gv;plv;2019;50;50;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);48
+gv;plv;2019;53;53;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);26
+gv;plv;2019;58;58;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);4
+gv;plv;2020;2;202;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);4
+gv;plv;2020;2;202;total_sample_area;SQL_QUERY;GV_PLV_01;;"submitted ""total_sample_area"" does not match with ""code_survey_type""";28
+gv;plv;2020;4;3604;latitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for latitude: +504986;2
+gv;plv;2020;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);8
+gv;plv;2020;4;3604;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +140569;2
+gv;plv;2020;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);16
+gv;plv;2020;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 5 missing in form VEM;8
+gv;plv;2020;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 6 missing in form VEM;7
+gv;plv;2020;5;5;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 3 missing in form PLD;287
+gv;plv;2020;5;5;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 4 missing in form PLD;289
+gv;plv;2020;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2020;56;56;latitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for latitude: +554978;1
+gv;plv;2020;56;56;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 10 missing in form PLD;5
+gv;plv;2021;4;3604;latitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for latitude: +504986;2
+gv;plv;2021;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);8
+gv;plv;2021;4;3604;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +140569;2
+gv;plv;2021;4;3704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);14
+gv;plv;2021;8;8;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);28
+gv;plv;2021;8;8;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 2 missing in form VEM;7
+gv;plv;2021;8;8;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 3 missing in form PLD;1
+gv;plv;2021;8;8;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 4 missing in form PLD;1
+gv;plv;2021;50;50;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);389
+gv;plv;2021;50;50;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +072460;20
+gv;plv;2022;2;102;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;1
+gv;plv;2022;2;102;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 2 missing in form VEM;1
+gv;plv;2022;2;102;total_sample_area;SQL_QUERY;GV_PLV_01;;"submitted ""total_sample_area"" does not match with ""code_survey_type""";1
+gv;plv;2022;4;2704;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);4
+gv;plv;2022;4;3604;latitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for latitude: +504986;2
+gv;plv;2022;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);8
+gv;plv;2022;4;3604;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +140569;2
+gv;plv;2022;6;6;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);30
+gv;plv;2022;67;67;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 3 missing in form VEM;1
+gv;plv;2023;4;3604;latitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for latitude: +504986;2
+gv;plv;2023;4;3604;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);9
+gv;plv;2023;4;3604;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +140569;2
+gv;plv;2023;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);20
+gv;plv;2023;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 5 missing in form VEM;9
+gv;plv;2023;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 6 missing in form VEM;8
+gv;plv;2023;5;5;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 3 missing in form PLD;256
+gv;plv;2023;5;5;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 4 missing in form PLD;252
+gv;plv;2023;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2023;8;8;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);28
+gv;plv;2024;4;3204;longitude;SQL_QUERY;GENER_COORD_01;;minutes or seconds bigger than 59 for longitude: +081060;4
+gv;plv;2024;5;5;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);20
+gv;plv;2024;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 5 missing in form VEM;10
+gv;plv;2024;5;5;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 6 missing in form VEM;9
+gv;plv;2024;5;5;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 3 missing in form PLD;273
+gv;plv;2024;5;5;survey_number;SQL_QUERY;GV_VEM_03;;survey_number 4 missing in form PLD;274
+gv;plv;2024;5;5;total_sample_area;SQL_QUERY;GV_PLV_03;;different area for the same location (over time);2
+gv;plv;2024;58;58;latitude / longitude / code_altitude;SQL_QUERY;GV_PLV_02;;different coordinates for the same location (over time);4
+gv;plv;2024;58;58;survey_number;SQL_QUERY;GV_PLV_04;;survey_number 1 missing in form VEM;1
+gv;vem;1995;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.001a.001.LX) is not valid - see other_obs";124
+gv;vem;1995;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.028a.005.LX) is not valid - see other_obs";1
+gv;vem;1995;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (087.007a.103.LX) is not valid - see other_obs";8
+gv;vem;1995;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (139.004a.003.LX) is not valid - see other_obs";1
+gv;vem;1995;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (154.017a.002.LX) is not valid - see other_obs";21
+gv;vem;1995;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (168.009a.001.LX) is not valid - see other_obs";2
+gv;vem;1995;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.096b.017.LX) is not valid - see other_obs";21
+gv;vem;1995;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (199.012a.064.LX) is not valid - see other_obs";2
+gv;vem;1995;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (199.012a.124.LX) is not valid - see other_obs";8
+gv;vem;1995;12;12;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;820
+gv;vem;1995;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.076.AU) is not valid - see other_obs";1
+gv;vem;1995;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.012.002.AU) is not valid - see other_obs";4
+gv;vem;1995;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.096.068.AU) is not valid - see other_obs";1
+gv;vem;1995;14;14;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;59
+gv;vem;1995;58;58;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.303.CZ) is not valid - see other_obs";2
+gv;vem;1995;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;86
+gv;vem;1996;3;3;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;334
+gv;vem;1996;4;2804;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.076.DL) is not valid - see other_obs";25
+gv;vem;1996;4;2804;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.065.DL) is not valid - see other_obs";1
+gv;vem;1996;4;2804;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.026.003.DL) is not valid - see other_obs";2
+gv;vem;1996;4;2804;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;867
+gv;vem;1996;9;9;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.001.001A.EL) is not valid - see other_obs";10
+gv;vem;1996;9;9;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (110.001.003A.EL) is not valid - see other_obs";2
+gv;vem;1996;9;9;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (129.075.002A.EL) is not valid - see other_obs";2
+gv;vem;1996;9;9;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (135.001.003A.EL) is not valid - see other_obs";1
+gv;vem;1996;9;9;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (140.004.002A.EL) is not valid - see other_obs";2
+gv;vem;1996;9;9;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (148.029.017A.EL) is not valid - see other_obs";1
+gv;vem;1996;9;9;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (154.021.030A.EL) is not valid - see other_obs";4
+gv;vem;1996;9;9;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.260.EL) is not valid - see other_obs";2
+gv;vem;1996;9;9;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (183.038.057A.EL) is not valid - see other_obs";2
+gv;vem;1996;9;9;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (199.012.072A.EL) is not valid - see other_obs";2
+gv;vem;1996;9;9;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;212
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (028.005.011.AU) is not valid - see other_obs";8
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.004.028.AU) is not valid - see other_obs";19
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (057.006.001.AU) is not valid - see other_obs";5
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (057.006.999.AU) is not valid - see other_obs";1
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (061.019.134.AU) is not valid - see other_obs";2
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (061.019.135.AU) is not valid - see other_obs";2
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.076.AU) is not valid - see other_obs";15
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.077.AU) is not valid - see other_obs";5
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (110.001.093.AU) is not valid - see other_obs";16
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (144.005.146.AU) is not valid - see other_obs";2
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.012.002.AU) is not valid - see other_obs";4
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.012.003.AU) is not valid - see other_obs";3
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (154.021.063.AU) is not valid - see other_obs";12
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (164.001.999.AU) is not valid - see other_obs";4
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (167.006.049.AU) is not valid - see other_obs";4
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (167.006.050.AU) is not valid - see other_obs";1
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.081.013.AU) is not valid - see other_obs";1
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.096.068.AU) is not valid - see other_obs";18
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.096.069.AU) is not valid - see other_obs";4
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.096.070.AU) is not valid - see other_obs";2
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.173.030.AU) is not valid - see other_obs";6
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.065.AU) is not valid - see other_obs";24
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.066.AU) is not valid - see other_obs";2
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.067.AU) is not valid - see other_obs";2
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.071.AU) is not valid - see other_obs";1
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.073.AU) is not valid - see other_obs";6
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.077.AU) is not valid - see other_obs";5
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.246.AU) is not valid - see other_obs";6
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.254.AU) is not valid - see other_obs";5
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.257.AU) is not valid - see other_obs";8
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.258.AU) is not valid - see other_obs";2
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.261.AU) is not valid - see other_obs";3
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.262.AU) is not valid - see other_obs";2
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.263.AU) is not valid - see other_obs";3
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.016.999.AU) is not valid - see other_obs";4
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.026.002.AU) is not valid - see other_obs";1
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.026.003.AU) is not valid - see other_obs";2
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.045.006.AU) is not valid - see other_obs";2
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.045.007.AU) is not valid - see other_obs";1
+gv;vem;1996;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (199.012.999.AU) is not valid - see other_obs";1
+gv;vem;1996;14;14;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;1845
+gv;vem;1996;58;58;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.010.999.CZ) is not valid - see other_obs";1
+gv;vem;1996;58;58;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.302.CZ) is not valid - see other_obs";1
+gv;vem;1996;58;58;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.303.CZ) is not valid - see other_obs";1
+gv;vem;1996;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;49
+gv;vem;1997;7;7;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;190
+gv;vem;1997;58;58;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.303.CZ) is not valid - see other_obs";1
+gv;vem;1997;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;31
+gv;vem;1997;59;59;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;239
+gv;vem;1998;4;2704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;277
+gv;vem;1998;4;3204;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;175
+gv;vem;1998;4;3304;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;133
+gv;vem;1998;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (000.999.999.DK) is not valid - see other_obs";4
+gv;vem;1998;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (026.004.999.DK) is not valid - see other_obs";2
+gv;vem;1998;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (026.005.999.DK) is not valid - see other_obs";1
+gv;vem;1998;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.004.999.DK) is not valid - see other_obs";2
+gv;vem;1998;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.999.DK) is not valid - see other_obs";1
+gv;vem;1998;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (081.049.999.DK) is not valid - see other_obs";1
+gv;vem;1998;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.010.999.DK) is not valid - see other_obs";1
+gv;vem;1998;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.173.999.DK) is not valid - see other_obs";1
+gv;vem;1998;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (189.002.999.DK) is not valid - see other_obs";2
+gv;vem;1998;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.016.999.DK) is not valid - see other_obs";1
+gv;vem;1998;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.087.999.DK) is not valid - see other_obs";1
+gv;vem;1998;8;8;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;151
+gv;vem;1998;10;10;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;10
+gv;vem;1998;10;10;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;241
+gv;vem;1998;10;10;;PK_NOT_UNIQUE;;;primary key not unique;10
+gv;vem;1998;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;845
+gv;vem;1998;58;58;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;2
+gv;vem;1998;58;58;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.302.CZ) is not valid - see other_obs";1
+gv;vem;1998;58;58;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.303.CZ) is not valid - see other_obs";1
+gv;vem;1998;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;13
+gv;vem;1998;58;58;;PK_NOT_UNIQUE;;;primary key not unique;2
+gv;vem;1999;4;2704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;213
+gv;vem;1999;4;2904;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;116
+gv;vem;1999;4;3304;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;122
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.004.023 IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.004.025.IT) is not valid - see other_obs";5
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.004.026.IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (044.002.999.IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (057.028.999.IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (068.040.999.IT) is not valid - see other_obs";2
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.999.IT) is not valid - see other_obs";2
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.010.999.IT) is not valid - see other_obs";2
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.028.999.IT) is not valid - see other_obs";2
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.035.999.IT) is not valid - see other_obs";2
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (110.001.093.IT) is not valid - see other_obs";2
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (135.007.999.IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (144.005.999.IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (154.027.999.IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (160.002.999.IT) is not valid - see other_obs";2
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.110.999.IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.065.IT) is not valid - see other_obs";6
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.246.IT) is not valid - see other_obs";5
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.260 IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.261 IT) is not valid - see other_obs";2
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (183.025.035 IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (183.038.999.IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.045.007.IT) is not valid - see other_obs";5
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (199.012.999.IT) is not valid - see other_obs";2
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (203.002.999.IT) is not valid - see other_obs";3
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (203.013.999.IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (203.026.002.IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (344.001.032 IT) is not valid - see other_obs";2
+gv;vem;1999;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (500.050.021.IT) is not valid - see other_obs";1
+gv;vem;1999;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2114
+gv;vem;1999;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (026.004.999.DK) is not valid - see other_obs";1
+gv;vem;1999;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (189.002.999.DK) is not valid - see other_obs";3
+gv;vem;1999;8;8;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;108
+gv;vem;1999;11;11;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;2
+gv;vem;1999;11;11;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.004.021B.ES) is not valid - see other_obs";1
+gv;vem;1999;11;11;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (081.013.036.ES) is not valid - see other_obs";1
+gv;vem;1999;11;11;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (081.026.005.ES) is not valid - see other_obs";1
+gv;vem;1999;11;11;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (099.001.004.ES) is not valid - see other_obs";4
+gv;vem;1999;11;11;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (139.009.002.ES) is not valid - see other_obs";2
+gv;vem;1999;11;11;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.025.009B.ES) is not valid - see other_obs";1
+gv;vem;1999;11;11;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (164.002.004.ES) is not valid - see other_obs";1
+gv;vem;1999;11;11;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (315.005.006) is not valid - see other_obs";1
+gv;vem;1999;11;11;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (379.001.002) is not valid - see other_obs";1
+gv;vem;1999;11;11;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2538
+gv;vem;1999;11;11;;PK_NOT_UNIQUE;;;primary key not unique;2
+gv;vem;1999;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;162
+gv;vem;1999;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;42
+gv;vem;1999;64;64;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;140
+gv;vem;2000;3;3;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;470
+gv;vem;2000;4;2704;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (043.002.005.DL) is not valid - see other_obs";1
+gv;vem;2000;4;2704;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.076.DL) is not valid - see other_obs";3
+gv;vem;2000;4;2704;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.065.DL) is not valid - see other_obs";2
+gv;vem;2000;4;2704;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.077.DL) is not valid - see other_obs";1
+gv;vem;2000;4;2704;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.260.DL) is not valid - see other_obs";1
+gv;vem;2000;4;2704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;314
+gv;vem;2000;4;2804;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.076.DL) is not valid - see other_obs";25
+gv;vem;2000;4;2804;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.065.DL) is not valid - see other_obs";1
+gv;vem;2000;4;2804;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.026.003.DL) is not valid - see other_obs";2
+gv;vem;2000;4;2804;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;867
+gv;vem;2000;4;2904;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;729
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;6
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.004.027.IT) is not valid - see other_obs";2
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.004.999.IT) is not valid - see other_obs";3
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (057.028.999.IT) is not valid - see other_obs";2
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.999.IT) is not valid - see other_obs";1
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.010.999.IT) is not valid - see other_obs";2
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.026.999.IT) is not valid - see other_obs";1
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.035.999.IT) is not valid - see other_obs";3
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (081.049.999.IT) is not valid - see other_obs";1
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (095.001.999.IT) is not valid - see other_obs";1
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (123.005.999.IT) is not valid - see other_obs";1
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (135.007.999.IT) is not valid - see other_obs";2
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (160.002.999.IT) is not valid - see other_obs";1
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.110.999.IT) is not valid - see other_obs";1
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.173.999.IT) is not valid - see other_obs";1
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.999A.IT) is not valid - see other_obs";13
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.999C.IT) is not valid - see other_obs";1
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.999D.IT) is not valid - see other_obs";2
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.999.IT) is not valid - see other_obs";4
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.016.999.IT) is not valid - see other_obs";1
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (203.013.999.IT) is not valid - see other_obs";2
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (203.026.999.IT) is not valid - see other_obs";2
+gv;vem;2000;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (344.001.032.IT) is not valid - see other_obs";4
+gv;vem;2000;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2740
+gv;vem;2000;5;5;;PK_NOT_UNIQUE;;;primary key not unique;6
+gv;vem;2000;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (019.003.999.DK) is not valid - see other_obs";4
+gv;vem;2000;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (026.001.999.DK) is not valid - see other_obs";2
+gv;vem;2000;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (026.004.999.DK) is not valid - see other_obs";6
+gv;vem;2000;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (026.005.999.DK) is not valid - see other_obs";1
+gv;vem;2000;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.004.999.DK) is not valid - see other_obs";2
+gv;vem;2000;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.999.DK) is not valid - see other_obs";1
+gv;vem;2000;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (081.049.999.DK) is not valid - see other_obs";1
+gv;vem;2000;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (123.005.999.DK) is not valid - see other_obs";2
+gv;vem;2000;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.010.999.DK) is not valid - see other_obs";2
+gv;vem;2000;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (164.001.999.DK) is not valid - see other_obs";1
+gv;vem;2000;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (189.002.999.DK) is not valid - see other_obs";2
+gv;vem;2000;8;8;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.016.999.DK) is not valid - see other_obs";1
+gv;vem;2000;8;8;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;187
+gv;vem;2000;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (026.004a.001.LX) is not valid - see other_obs";2
+gv;vem;2000;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.001a.001.LX) is not valid - see other_obs";82
+gv;vem;2000;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.028a.005.LX) is not valid - see other_obs";2
+gv;vem;2000;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (081.012a.020.LX) is not valid - see other_obs";2
+gv;vem;2000;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (139.004a.003.LX) is not valid - see other_obs";3
+gv;vem;2000;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (154.017a.002.LX) is not valid - see other_obs";1
+gv;vem;2000;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (168.009a.001.LX) is not valid - see other_obs";1
+gv;vem;2000;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.096b.017.LX) is not valid - see other_obs";7
+gv;vem;2000;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.074a.001.LX) is not valid - see other_obs";2
+gv;vem;2000;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (199.012a.064.LX) is not valid - see other_obs";4
+gv;vem;2000;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (199.012a.124.LX) is not valid - see other_obs";4
+gv;vem;2000;12;12;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;533
+gv;vem;2000;13;13;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;784
+gv;vem;2000;13;1301;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;1218
+gv;vem;2000;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;159
+gv;vem;2000;52;52;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;164
+gv;vem;2000;58;58;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;2
+gv;vem;2000;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;296
+gv;vem;2000;58;58;;PK_NOT_UNIQUE;;;primary key not unique;2
+gv;vem;2001;4;2704;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (043.002.005.DL) is not valid - see other_obs";1
+gv;vem;2001;4;2704;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.076.DL) is not valid - see other_obs";3
+gv;vem;2001;4;2704;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.077.DL) is not valid - see other_obs";1
+gv;vem;2001;4;2704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;313
+gv;vem;2001;4;2804;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.076.DL) is not valid - see other_obs";23
+gv;vem;2001;4;2804;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.181.065.DL) is not valid - see other_obs";1
+gv;vem;2001;4;2804;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.026.003.DL) is not valid - see other_obs";1
+gv;vem;2001;4;2804;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;845
+gv;vem;2001;4;2904;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;135
+gv;vem;2001;4;3104;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.076.DL) is not valid - see other_obs";2
+gv;vem;2001;4;3104;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;44
+gv;vem;2001;4;3704;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.076.DL) is not valid - see other_obs";3
+gv;vem;2001;4;3704;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.173.030.DL) is not valid - see other_obs";2
+gv;vem;2001;4;3704;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.026.003.DL) is not valid - see other_obs";2
+gv;vem;2001;4;3704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;252
+gv;vem;2001;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (081.081.999) is not valid - see other_obs";1
+gv;vem;2001;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (344.001.032) is not valid - see other_obs";6
+gv;vem;2001;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (500.050.022) is not valid - see other_obs";2
+gv;vem;2001;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2321
+gv;vem;2001;10;10;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;4
+gv;vem;2001;10;10;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (068.077.021) is not valid - see other_obs";1
+gv;vem;2001;10;10;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (069.002.003) is not valid - see other_obs";5
+gv;vem;2001;10;10;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.038.008) is not valid - see other_obs";2
+gv;vem;2001;10;10;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.038.010) is not valid - see other_obs";4
+gv;vem;2001;10;10;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.038.011) is not valid - see other_obs";6
+gv;vem;2001;10;10;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.024.017) is not valid - see other_obs";2
+gv;vem;2001;10;10;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.180.006) is not valid - see other_obs";3
+gv;vem;2001;10;10;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (185.006.031) is not valid - see other_obs";1
+gv;vem;2001;10;10;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;735
+gv;vem;2001;10;10;;PK_NOT_UNIQUE;;;primary key not unique;4
+gv;vem;2001;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (019.003.021) is not valid - see other_obs";1
+gv;vem;2001;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (019.003.022) is not valid - see other_obs";1
+gv;vem;2001;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.081.013) is not valid - see other_obs";2
+gv;vem;2001;14;14;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (188.007.044) is not valid - see other_obs";1
+gv;vem;2001;14;14;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2430
+gv;vem;2001;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;169
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;4
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (016.017.002) is not valid - see other_obs";1
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (023.005.008) is not valid - see other_obs";1
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (031.004.004) is not valid - see other_obs";2
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (035.033.001) is not valid - see other_obs";2
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.006.001) is not valid - see other_obs";2
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (039.004.002) is not valid - see other_obs";8
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (039.004.003) is not valid - see other_obs";1
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (039.006.001) is not valid - see other_obs";4
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (093.016.027) is not valid - see other_obs";2
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (127.001.101) is not valid - see other_obs";1
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (139.016.027) is not valid - see other_obs";2
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (144.055.132) is not valid - see other_obs";4
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (168.081.001) is not valid - see other_obs";1
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.016.017) is not valid - see other_obs";2
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (192.012.064) is not valid - see other_obs";4
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (199.002.017) is not valid - see other_obs";1
+gv;vem;2001;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (199.044.004) is not valid - see other_obs";1
+gv;vem;2001;51;51;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2043
+gv;vem;2001;51;51;;PK_NOT_UNIQUE;;;primary key not unique;4
+gv;vem;2001;59;59;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;94
+gv;vem;2002;4;3104;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;30
+gv;vem;2002;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (344.001.032) is not valid - see other_obs";2
+gv;vem;2002;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (500.050.022) is not valid - see other_obs";2
+gv;vem;2002;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;1372
+gv;vem;2002;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;166
+gv;vem;2003;4;2704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;235
+gv;vem;2003;4;2904;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;127
+gv;vem;2003;4;3104;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;34
+gv;vem;2003;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (344.001.032) is not valid - see other_obs";2
+gv;vem;2003;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (500.050.022) is not valid - see other_obs";2
+gv;vem;2003;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;1289
+gv;vem;2003;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;1360
+gv;vem;2003;51;51;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;77
+gv;vem;2003;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (023.005.008) is not valid - see other_obs";3
+gv;vem;2003;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (031.004.004) is not valid - see other_obs";2
+gv;vem;2003;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (035.033.001) is not valid - see other_obs";2
+gv;vem;2003;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (039.004.002) is not valid - see other_obs";8
+gv;vem;2003;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (039.004.003) is not valid - see other_obs";1
+gv;vem;2003;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (039.006.001) is not valid - see other_obs";3
+gv;vem;2003;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (093.016.027) is not valid - see other_obs";2
+gv;vem;2003;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (139.016.027) is not valid - see other_obs";2
+gv;vem;2003;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (144.008.018) is not valid - see other_obs";4
+gv;vem;2003;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (144.055.132) is not valid - see other_obs";4
+gv;vem;2003;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (168.081.001) is not valid - see other_obs";1
+gv;vem;2003;51;51;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (192.012.064) is not valid - see other_obs";4
+gv;vem;2003;51;51;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2233
+gv;vem;2003;51;51;;PK_NOT_UNIQUE;;;primary key not unique;77
+gv;vem;2003;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;66
+gv;vem;2004;5;5;code_layer_surface;ATT_MAN_NULL;;;attribute is mandatory but NULL;1353
+gv;vem;2004;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;1353
+gv;vem;2004;5;5;;PK_INCOMPLETE;;;primary key incomplete;1353
+gv;vem;2004;10;10;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;6
+gv;vem;2004;10;10;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.038.008) is not valid - see other_obs";2
+gv;vem;2004;10;10;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.038.009) is not valid - see other_obs";6
+gv;vem;2004;10;10;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;417
+gv;vem;2004;10;10;;PK_NOT_UNIQUE;;;primary key not unique;6
+gv;vem;2004;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;102
+gv;vem;2004;54;54;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;598
+gv;vem;2004;56;56;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;4
+gv;vem;2004;56;56;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;352
+gv;vem;2004;56;56;;PK_NOT_UNIQUE;;;primary key not unique;4
+gv;vem;2004;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;49
+gv;vem;2004;64;64;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;21
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;16
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (026.007.6610) is not valid - see other_obs";16
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.004.6612) is not valid - see other_obs";6
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.004.6613) is not valid - see other_obs";6
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (057.028.6619) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (068.049.6602) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (068.   .6625) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.6615) is not valid - see other_obs";4
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (081.049.6626) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (081.049.6627) is not valid - see other_obs";4
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (087.007.6607) is not valid - see other_obs";1
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (087.007.6608) is not valid - see other_obs";3
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (109.001.6609) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (112.001.6606) is not valid - see other_obs";7
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (112.001.660) is not valid - see other_obs";1
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (144.009.6614) is not valid - see other_obs";4
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.002.6621) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.002.6622) is not valid - see other_obs";5
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.003.6618) is not valid - see other_obs";6
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.033.6623) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (151.040.6616) is not valid - see other_obs";4
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (167.007.6611) is not valid - see other_obs";4
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.057.6603) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.106.6605) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.161.6617) is not valid - see other_obs";3
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (183.038.6601) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.028.6607) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.059.6620) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.060.6604) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.   .6624) is not valid - see other_obs";2
+gv;vem;2004;66;66;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (.   .999) is not valid - see other_obs";8
+gv;vem;2004;66;66;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;310
+gv;vem;2004;66;66;;PK_NOT_UNIQUE;;;primary key not unique;16
+gv;vem;2005;4;2704;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;414
+gv;vem;2005;4;2904;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;703
+gv;vem;2005;4;3104;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;28
+gv;vem;2005;5;5;code_layer_surface;ATT_MAN_NULL;;;attribute is mandatory but NULL;4475
+gv;vem;2005;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;4475
+gv;vem;2005;5;5;;PK_INCOMPLETE;;;primary key incomplete;4475
+gv;vem;2005;8;8;code_layer_surface;ATT_MAN_NULL;;;attribute is mandatory but NULL;1
+gv;vem;2005;8;8;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;173
+gv;vem;2005;8;8;;PK_INCOMPLETE;;;primary key incomplete;1
+gv;vem;2005;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (026.004.001a) is not valid - see other_obs";8
+gv;vem;2005;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (036.001.001a) is not valid - see other_obs";94
+gv;vem;2005;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.009.12-8) is not valid - see other_obs";44
+gv;vem;2005;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (080.028.005a) is not valid - see other_obs";2
+gv;vem;2005;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (081.012.020a) is not valid - see other_obs";4
+gv;vem;2005;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (087.007.103a) is not valid - see other_obs";4
+gv;vem;2005;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (139.004.003a) is not valid - see other_obs";1
+gv;vem;2005;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (169.096.017b) is not valid - see other_obs";3
+gv;vem;2005;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (193.074.001a) is not valid - see other_obs";2
+gv;vem;2005;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (199.012.010b) is not valid - see other_obs";2
+gv;vem;2005;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (199.012.064a) is not valid - see other_obs";4
+gv;vem;2005;12;12;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (199.012.124a) is not valid - see other_obs";10
+gv;vem;2005;12;12;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;592
+gv;vem;2005;13;13;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;80
+gv;vem;2005;13;1301;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;420
+gv;vem;2005;15;15;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;60
+gv;vem;2005;51;51;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;12
+gv;vem;2005;51;51;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2591
+gv;vem;2005;51;51;;PK_NOT_UNIQUE;;;primary key not unique;12
+gv;vem;2005;63;63;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;6
+gv;vem;2005;63;63;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;86
+gv;vem;2005;63;63;;PK_NOT_UNIQUE;;;primary key not unique;6
+gv;vem;2006;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (344.001.032) is not valid - see other_obs";5
+gv;vem;2006;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (385.004.003) is not valid - see other_obs";2
+gv;vem;2006;5;5;code_species;SQL_QUERY;GV_VEM_02;;"submitted ""code_species"" (500.050.022) is not valid - see other_obs";2
+gv;vem;2006;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2699
+gv;vem;2006;14;14;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2417
+gv;vem;2006;58;58;code_species;SQL_QUERY;GV_VEM_01;;duplicated species submitted;2
+gv;vem;2006;58;58;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;92
+gv;vem;2006;58;58;;PK_NOT_UNIQUE;;;primary key not unique;2
+gv;vem;2006;63;63;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;95
+gv;vem;2007;4;2904;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;133
+gv;vem;2008;5;5;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;2262
+gv;vem;2009;62;62;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;1442
+gv;vem;2010;3;3;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;376
+gv;vem;2010;56;56;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;427
+gv;vem;2010;62;62;;NO_OFFICIAL_SUB;;;not submitted using the official data portal;4157
+gv;vem;2011;4;3604;code_substrate;ATT_MAN_NULL;;;attribute is mandatory but NULL;298
+gv;vem;2011;4;3604;;PK_INCOMPLETE;;;primary key incomplete;298
+gv;vem;2012;4;3604;code_substrate;ATT_MAN_NULL;;;attribute is mandatory but NULL;310
+gv;vem;2012;4;3604;;PK_INCOMPLETE;;;primary key incomplete;310
+gv;vem;2013;4;3604;code_substrate;ATT_MAN_NULL;;;attribute is mandatory but NULL;325
+gv;vem;2013;4;3604;;PK_INCOMPLETE;;;primary key incomplete;325
+gv;vem;2014;64;64;code_substrate;ATT_MAN_NULL;;;attribute is mandatory but NULL;61
+gv;vem;2014;64;64;;PK_INCOMPLETE;;;primary key incomplete;61

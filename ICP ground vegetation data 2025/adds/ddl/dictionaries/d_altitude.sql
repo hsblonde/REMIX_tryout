@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS d_altitude; CREATE TABLE d_altitude ( code smallint  NOT NULL, description character varying(250)  NULL, valid_from_survey_year smallint  NOT NULL, valid_to_survey_year smallint  NULL, value_min smallint  NULL, value_max smallint  NULL, CONSTRAINT d_altitude_pk     PRIMARY KEY (code, valid_from_survey_year));

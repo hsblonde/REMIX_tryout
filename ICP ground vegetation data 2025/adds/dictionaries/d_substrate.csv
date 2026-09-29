@@ -1,0 +1,18 @@
+code;description;valid_from_survey_year;valid_to_survey_year
+1;Terricolous;1984;
+2;Deadwood;1984;
+21;Deadwood, standing trees;1984;
+22;Deadwood, lying trees;1984;
+23;Deadwood, stumps/snags;1984;
+24;Deadwood, other (e.g branches);1984;
+3;Bedrocks, boulder, stones;1984;
+4;Epiphytic on living trees;1984;
+41;Epiphytic on living trees, prevailing on roots;1984;
+42;Epiphytic on living trees, prevailing at stem;1984;
+43;Epiphytic on living trees, prevailing in crown;1984;
+44;Epiphytic on non-ligneous plants;1984;
+5;Water suface;1984;
+6;Submerged;1984;
+7;Anthropogenic/artificial surfaces;1984;
+8;Other;1984;
+99;NOT KNOWN;1984;2010

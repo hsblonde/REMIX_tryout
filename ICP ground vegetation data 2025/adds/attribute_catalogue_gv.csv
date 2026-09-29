@@ -1,0 +1,47 @@
+table_name;ordinal_position;column_name;data_type;dictionary;unit_format;exp_item;field_desc;remarks;mandatory;key;null_value;ecosys_parameter
+gv_plv;1;survey_year;smallint;;;;Year of the data collection;;1;1;;0
+gv_plv;2;code_country;smallint;d_country;;;Unique ID of each country;;1;1;;0
+gv_plv;3;partner_code;smallint;d_partner;;;Unique ID of each data submitting partner;;1;0;;0
+gv_plv;4;code_plot;integer;;;;Observation plot number;A unique number (per country) given to the permanent plot during the selection or installation;1;1;;0
+gv_plv;5;sample_id;smallint;;;https://icp-forests.org/documentation/ExplanatoryItems/87.html;Unique and persistend ID of each sampling unit on the plot;;1;1;;0
+gv_plv;6;survey_number;smallint;;;https://icp-forests.org/documentation/ExplanatoryItems/91.html;Unique number per survey conducted in a sampling unit during this year;;1;1;;0
+gv_plv;7;code_survey_type;smallint;d_survey_type_gv;;;Ground vegetation survey type;;1;0;-99;0
+gv_plv;8;date_sampling;date;;DDMMYY;;Date of sampling;E.g. '9th October 2012' = '091012';1;0;;0
+gv_plv;9;team_id;integer;;;https://icp-forests.org/documentation/ExplanatoryItems/88.html;Field team ID;Please use '-99' in case the team_id is not known;0;0;-99;0
+gv_plv;10;no_members;smallint;;;;Number of persons in the field crew;;0;0;;0
+gv_plv;11;latitude;character varying;;+DDMMSS;https://icp-forests.org/documentation/ExplanatoryItems/4.html;Latitude in Degrees Minutes Seconds (WGS84);E.g. '+505852' = 50 Degree, 58 Minutes, 52 Seconds;1;0;;0
+gv_plv;12;longitude;character varying;;+/-DDMMSS;https://icp-forests.org/documentation/ExplanatoryItems/4.html;Longitude in Degrees Minutes Seconds (WGS84);E.g. '+035531' = 3 Degree, 55 Minutes, 31 Seconds;1;0;;0
+gv_plv;13;code_altitude;smallint;d_altitude;m;;Altitude above sea level in 50 meter classes;;1;0;NOT DEFINED;1
+gv_plv;14;code_fence;smallint;d_fence;;https://icp-forests.org/documentation/ExplanatoryItems/92.html;Fence;;1;0;;1
+gv_plv;15;total_sample_area;smallint;;m²;https://icp-forests.org/documentation/ExplanatoryItems/93.html;Total sampled area;;1;0;;1
+gv_plv;16;tree_layer_cover;smallint;;%;https://icp-forests.org/documentation/ExplanatoryItems/94.html;Tree layer cover (only ligneous and all climbers) > 5 m height;In % of total area;0;0;;1
+gv_plv;17;shrub_layer_height;numeric;;m;https://icp-forests.org/documentation/ExplanatoryItems/94.html;Shrub layer height (only ligneous and all climbers) > 0.5 m and ≤ 5 m height;;0;0;;1
+gv_plv;18;shrub_layer_cover;numeric;;%;https://icp-forests.org/documentation/ExplanatoryItems/94.html;Shrub layer cover (only ligneous and all climbers) > 0.5 m and ≤ 5 m height;In % of total area;0;0;;1
+gv_plv;19;shrub_low_cover;numeric;;%;https://icp-forests.org/documentation/ExplanatoryItems/94.html;Shrub low sublayer cover (only ligneous and all climbers) > 0.5 m and ≤ 2 m height;In % of total area;0;0;;1
+gv_plv;20;shrub_high_cover;numeric;;%;https://icp-forests.org/documentation/ExplanatoryItems/94.html;Shrub low sublayer cover (only ligneous and all climbers) > 2 m and ≤ 5 m height;In % of total area;0;0;;1
+gv_plv;21;herb_layer_height;numeric;;m;https://icp-forests.org/documentation/ExplanatoryItems/94.html;Herb layer height (all non-ligneous irrespective of height, and the ligneous only if ≤ 0.5m height), including eventual seedlings and browsed trees;;0;0;;1
+gv_plv;22;herb_layer_cover;numeric;;%;https://icp-forests.org/documentation/ExplanatoryItems/94.html;Herb layer cover (all non-ligneous irrespective of height, and the ligneous only if ≤ 0.5m height), including eventual seedlings and browsed trees;In % of total area;0;0;;1
+gv_plv;23;mosses_cover;numeric;;%;https://icp-forests.org/documentation/ExplanatoryItems/94.html;Mosses cover (i.e. terricolous bryophytes and terricolous lichens);In % of total area;0;0;;1
+gv_plv;24;bare_soil_cover;numeric;;%;https://icp-forests.org/documentation/ExplanatoryItems/94.html;Bare soil cover;In % of total area;0;0;;1
+gv_plv;25;litter_cover;numeric;;%;https://icp-forests.org/documentation/ExplanatoryItems/94.html;Litter cover;In % of total area;0;0;;1
+gv_plv;26;other_obs;character varying;;FREE TEXT;;Supplementary comments;;0;0;;0
+gv_plv;27;q_flag;smallint;d_qflags;;;Quality flag (10: confirmed warning in this row);;1;0;;0
+gv_plv;28;change_date;timestamp without time zone;;;;Date of the last change;;1;0;;0
+gv_plv;29;code_line;character varying;;;;Technical key;;1;0;;0
+gv_plv;30;line_nr;integer;;;;Unique number of a row submitted for a form (per survey-year);Used to join data with warnings from submission tests;1;0;;0
+gv_vem;1;survey_year;smallint;;;;Year of the data collection;;1;1;;0
+gv_vem;2;code_country;smallint;d_country;;;Unique ID of each country;;1;1;;0
+gv_vem;3;partner_code;smallint;d_partner;;;Unique ID of each data submitting partner;;1;0;;0
+gv_vem;4;code_plot;integer;;;;Observation plot number;A unique number (per country) given to the permanent plot during the selection or installation;1;1;;0
+gv_vem;5;sample_id;smallint;;;https://icp-forests.org/documentation/ExplanatoryItems/87.html;Unique and persistend ID of each sampling unit on the plot;;1;1;;0
+gv_vem;6;survey_number;smallint;;;https://icp-forests.org/documentation/ExplanatoryItems/91.html;Unique number per survey conducted in a sampling unit during this year;;1;1;;0
+gv_vem;7;code_species;character varying;d_species_list;;https://icp-forests.org/documentation/ExplanatoryItems/97.html;Species code;According to Flora Europaea;1;1;;1
+gv_vem;8;code_layer_surface;smallint;d_layer_surface;;;Layer;;1;1;;1
+gv_vem;9;code_substrate;smallint;d_substrate;;https://icp-forests.org/documentation/ExplanatoryItems/96.html;Substrate;;1;1;99;1
+gv_vem;10;species_cover;numeric;;%;https://icp-forests.org/documentation/ExplanatoryItems/98.html;Cover of the species in the layer;"Use ""-99"" if cover percentage is unkown";0;0;-99;1
+gv_vem;11;code_certainty;smallint;d_certainty;;;Certainty of species determination;;0;0;;1
+gv_vem;12;other_obs;character varying;;FREE TEXT;;Supplementary comments;;0;0;;0
+gv_vem;13;q_flag;smallint;d_qflags;;;Quality flag (10: confirmed warning in this row);;1;0;;0
+gv_vem;14;change_date;timestamp without time zone;;;;Date of the last change;;1;0;;0
+gv_vem;15;code_line;character varying;;;;Technical key;;1;0;;0
+gv_vem;16;line_nr;integer;;;;Unique number of a row submitted for a form (per survey-year);Used to join data with warnings from submission tests;1;0;;0

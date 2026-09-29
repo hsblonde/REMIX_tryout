@@ -1,0 +1,52 @@
+code;desc_short;description;country_code;futmon_code;foreu_code;valid_from_survey_year;valid_to_survey_year;longitude_min;latitude_min;longitude_max;latitude_max;tfm_sum;l1_coord_precise;l2_coord_precise
+1301;Sweden SWETHRO;Swedish Throughfall Monitoring Network (SWETHRO);13;;;1984;;+106000;+552100;+241000;+690400;f;0;0
+3504;DE_SL;Germany (Level II) - Landesamt für Umwelt- und Arbeitsschutz Saarland;4;35;35;1984;;+062200;+490700;+072400;+493800;f;0;0
+9804;DE_HH;Germany (Level II) - Hamburg;4;;;1984;;+094500;+532400;+102000;+534400;f;0;0
+11;Spain;NFC of Spain;11;23;23;1984;;-181100;+273900;+041900;+434800;f;0;0
+3;Netherlands;NFC of The Netherlands;3;17;;1984;;+032200;+504600;+071400;+533400;f;0;0
+10;Portugal;NFC of Portugal;10;;;1984;;-171600;+300900;-061100;+420900;f;0;0
+12;Luxembourg;NFC of Luxembourg;12;;;1984;;+054500;+492700;+063200;+501200;f;0;0
+14;Austria;NFC of Austria;14;2;2;1984;;+093300;+462300;+171000;+490200;f;0;0
+52;Romania;NFC of Romania;52;20;;1984;;+201600;+433800;+294200;+481600;f;0;0
+56;Lithuania;NFC of Lithuania;56;;;1984;;+205700;+535500;+265300;+562700;f;0;0
+57;Croatia;NFC of Croatia;57;;;1984;;+133000;+420800;+192700;+463300;f;0;0
+60;Slovenia;NFC of Slovenia;60;22;22;1984;;+132300;+452500;+163400;+465300;f;0;0
+61;Moldova;NFC of Republic of Moldova;61;;;1984;;+263800;+452900;+300900;+483000;f;0;0
+65;Belarus;NFC of Belarus;65;;;1984;;+231100;+511600;+324700;+561000;f;0;0
+66;Cyprus;NFC of Cyprus;66;6;6;1984;;+321700;+343800;+343600;+354300;f;0;0
+68;Andorra;NFC of Andorra;68;;;1984;;+012600;+422700;+014700;+424000;f;0;0
+80;Montenegro;NFC of Montenegro;80;;;1984;;+182700;+415200;+202200;+433400;f;0;0
+95;Canaries;NFC of Spain (Canaries);95;;;1984;;-181100;+273900;-132600;+292500;f;0;0
+96;Azores;NFC of Portugal (Azores);96;;;1984;;-311600;+365600;-250100;+394400;f;0;0
+62;Russia;NFC of Russia;62;;;1984;;+194500;+400000;+600000;+750000;f;0;0
+98;TI_WO;Germany (Level I) - Thünen Institute of Forest Ecosystems;4;1;1;1984;2010;+054945;+470900;+150230;+550200;f;0;0
+6;UK;NFC of United Kingdom;6;26;26;1984;;-084000;+343400;+335600;+605100;f;1;0
+3604;DE_SN;Germany (Level II) - Saxon Ministry for Environment and Agriculture;4;36;36;1984;;+115400;+501100;+150300;+514000;f;0;1
+1;France;NFC of France;1;;;1984;;-050900;+412100;+093400;+510600;f;0;1
+3704;DE_TH;Germany (Level II) - Forest department of Thuringia;4;37;37;1984;;+095300;+501300;+123400;+513900;f;0;1
+2704;DE_BB;Germany (Level II) - Eberswalde forestry state center of excellence (LFE);4;27;27;1984;;+113500;+512100;+144600;+532500;f;0;1
+3004;DE_NWD;Germany (Level II) - Northwest German Forest Research Institute (NW-FVA);4;30;30;1984;;+064000;+492400;+130800;+550400;f;0;1
+3104;DE_MV;Germany (Level II) - Mecklenburg-Western Pomerania;4;31;31;1984;;+103700;+530300;+142500;+544200;f;0;1
+3204;DE_NW;Germany (Level II) - Landesamt für Natur, Umwelt und Verbraucherschutz Nordrhein-Westfalen;4;32;32;1984;;+055200;+502000;+092900;+523200;f;0;1
+3304;DE_RP;Germany (Level II) - Forest Research Institute Rheinland-Pfalz (FAWF);4;33;33;1984;;+060800;+485800;+083100;+505700;f;0;1
+7;Ireland;NFC of Ireland;7;14;14;1984;;-103800;+512600;-060100;+552700;f;0;1
+13;Sweden;NFC of Sweden;13;25;25;1984;;+106000;+552100;+241000;+690400;f;0;1
+15;Finland;NFC of Finland;15;10;10;1984;;+192000;+594700;+313500;+700600;f;0;1
+50;Switzerland;NFC of Switzerland;50;;;1984;;+055800;+455000;+103000;+474900;f;0;1
+53;Poland;NFC of Poland;53;18;18;1984;;+140800;+490100;+241000;+545100;f;0;1
+55;Norway;NFC of Norway;55;;;1984;;+044000;+575800;+310900;+794200;f;0;1
+2804;DE_BW;Germany (Level II) - Forstliche Versuchs- und Forschungsanstalt Baden-Württemberg (FVA);4;28;28;1984;;+073100;+473300;+103000;+494800;f;0;1
+2904;DE_BY;Germany (Level II) - Bavarian State Institute of Forestry;4;29;29;1984;;+085900;+471700;+135100;+503400;f;0;1
+5;Italy;NFC of Italy;5;15;15;1984;;+063700;+353000;+183100;+470600;f;1;1
+8;Denmark;NFC of Denmark;8;8;8;1984;;+080500;+543400;+151000;+574500;f;1;1
+9;Greece;NFC of Greece;9;12;12;1984;;+192300;+344900;+293900;+414600;f;1;1
+51;Hungary;NFC of Hungary;51;13;13;1984;;+160700;+454500;+225500;+483600;f;1;1
+54;Slovak_Republic;NFC of Slovak Republic;54;21;21;1984;;+165100;+474400;+223500;+493700;f;1;1
+58;Czech_Republic;NFC of Czech Republic;58;7;7;1984;;+120600;+483300;+185200;+510400;f;1;1
+59;Estonia;NFC of Estonia;59;9;;1984;;+214700;+573100;+281300;+594200;f;1;1
+63;Bulgaria;NFC of Bulgaria;63;5;5;1984;;+222200;+411500;+283700;+441300;f;1;1
+64;Latvia;NFC of Latvia;64;38;38;1984;;+205900;+554100;+281500;+580500;f;1;1
+67;Serbia;NFC of Serbia;67;;;1984;;+185200;+415200;+230100;+461200;f;1;1
+102;BE_Flanders;NFC of Belgium (Flanders);2;3;3;1984;;+023300;+504200;+055500;+513100;f;1;1
+202;BE_Wallonie;NFC of Belgium (Wallonia);2;;;1984;;+025100;+493000;+062500;+504900;f;1;1
+72;Türkiye;NFC of Türkiye;72;;;1984;;+254100;+354900;+445100;+420700;f;1;1

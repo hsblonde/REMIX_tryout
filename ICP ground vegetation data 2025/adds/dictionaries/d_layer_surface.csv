@@ -1,0 +1,7 @@
+code;description;valid_from_survey_year;valid_to_survey_year
+1;Tree layer (only ligneous and all climbers) > 5 m height;1984;
+4;Moss layer (i.e. terricolous bryophytes and lichens);1984;
+2;Shrub layer (only ligneous and all climbers) > 0.5 m and ≤ 5 m height;1984;
+3;Herb layer (all non-ligneous irrespective of height, and the ligneous only if ≤ 0.5m height), including eventual seedlings and browsed trees;1984;
+5;Lower Shrubs (FR);1984;
+6;Upper Shrubs (FR);1984;

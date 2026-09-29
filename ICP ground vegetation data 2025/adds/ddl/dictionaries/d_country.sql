@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS d_country; CREATE TABLE d_country ( code smallint  NOT NULL, lib_country character varying(250)  NULL, code_iso character varying(2)  NULL, code_fimci smallint  NULL, valid_from_survey_year smallint  NOT NULL, valid_to_survey_year smallint  NULL, eu boolean DEFAULT false NULL, CONSTRAINT d_country_pk     PRIMARY KEY (code, valid_from_survey_year));
