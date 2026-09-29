@@ -22,8 +22,8 @@ ICP_plots<-gv_plv%>% #plot information for ICP forests
   ungroup()
 
 #EUNIS classification update from Liping & Markus
-load(paste0(data_path, "/EUNIS_classification/ICP_EUNIS_new Haben_combine.Rdata"))#file is called final_classification_data
-load(paste0(data_path, "/EUNIS_classification/ICP_EUNIS_result.Rdata"))#file is called final_classification_data
+load("ICP_EUNIS_new Haben_combine.Rdata")#file is called final_classification_data
+load("ICP_EUNIS_result.Rdata")#file is called final_classification_data
 
 ICP_EUNIS_old<-final_classification_data%>%
   dplyr::select(sample, EUNIS.code, EUNIS.code.name)%>%
@@ -45,14 +45,16 @@ ICP_EUNIS<-ICP_EUNIS_old%>%
 EUNIS_codes<-ICP_EUNIS%>%
   distinct(EUNIS.code, EUNIS.code.name)
 
+
+
 #species list
-d_species_list <-read_csv(paste0(data_path, "/ICP_forests/ICP ground vegetation data 2025/d_species_list.csv"))%>% #updated vegetation data
+d_species_list <-read_csv("ICP ground vegetation data 2025/d_species_list.csv")%>% #updated vegetation data
   select(code, genus, species) %>%
   mutate(species_name = paste(genus, gsub("\\.", "", species))) %>%
   rename(code_species=code)
 
 #altitudes
-ICP_altitude.code <-read_delim("box_data.gitignore/ICP_forests/ICP ground vegetation data 2025/adds/dictionaries/d_altitude.csv", delim = ";")%>%
+ICP_altitude.code <-read_delim("ICP ground vegetation data 2025/adds/dictionaries/d_altitude.csv", delim = ";")%>%
   dplyr::select(code,value_max)%>%
   rename(code_altitude=code, altitude=value_max)%>%
   distinct()
@@ -112,7 +114,7 @@ coordinates<- gv_plv%>%
 
 ####Vegetation data (gv) ####
 #load in vetation data
-gv_vem<-read_delim(paste0(data_path, "/ICP_forests/ICP ground vegetation data 2025/gv_vem.csv"), delim = ";")
+gv_vem<-read_delim("ICP ground vegetation data 2025/gv_vem.csv", delim = ";")
 
 #combine vegetation data with species list and coordinates
 ICP.veg<-left_join(gv_vem, d_species_list, by="code_species", relationship = "many-to-many")%>% #double species counted in two instances
@@ -134,7 +136,7 @@ layer_short_names <- c(
 )
 
 #load in the  the layer information
-ICP_layer.code <- read_delim("box_data.gitignore/ICP_forests/ICP ground vegetation data 2025/adds/dictionaries/d_layer_surface.csv", delim = ";")%>%
+ICP_layer.code <- read_delim("ICP ground vegetation data 2025/adds/dictionaries/d_layer_surface.csv", delim = ";")%>%
   mutate(layer = layer_short_names)%>%
   dplyr::select(code, layer, description)%>%
   rename(code_layer_surface=code)%>%
@@ -229,6 +231,7 @@ ICP.veg.prefinal<-ICP_edit%>%
   select(level_II_ID,Spatial_ID, EUNIS_ID,country,code_plot, sample_id, latitude, longitude, everything())%>%
   left_join(ICP_EUNIS, by = "EUNIS_ID", relationship = "many-to-many")%>%
   filter(level_II_ID %in% repeated_surveys) #keep only those surveys that are performed more than once
+
 
 
 #check the gaps in the EUNIS classification and fill either based on within-plot shared types or the generic "Forests"
@@ -328,61 +331,5 @@ wronglist<-subplotIDs%>% #85 plots with missing or variable plot sizes. This mes
 
 
 #write out the data product
-write_csv(ICP_veg_final,"Data_products/ICP_veg_final.csv") #2742 Plot, subplot combinations. 2827 if changeable plot size over time is accounted for
-
-
-##### checking for the EUNIS gaps: this was code after which Liping created the ICP_EUNIS_new.. file ######
-altitudes<-ICP_combined%>%
-  distinct(level_II_ID, altitude)%>%
-  rename(PlotID = level_II_ID, Altitude = altitude)
-
-ICP_veg_EUNIS<-ICP.veg.prefinal%>%
-  dplyr::select(-EUNIS.code, - EUNIS.code.name)%>%
-  left_join(EUNIS_fills, by = "EUNIS_ID", relationship = "many-to-many")%>%
-  ungroup()%>%
-  distinct()%>%
-  arrange(level_II_ID,Spatial_ID, survey_year)%>%
-  group_by(level_II_ID,Spatial_ID,survey_year)%>%
-  rename(survey_number_original = survey_number, sample_id_original = sample_id)%>%
-  # dplyr::select(-survey_number)%>% #the original survey number does not code what I want. I want this to be a consecutive number within each spatial plot ID
-  nest()%>%
-  group_by(level_II_ID,Spatial_ID)%>%
-  mutate(Survey_number = row_number())%>% #correct consecutive surveys now
-  unnest(data)%>%
-  mutate(Database = "ICP_forests")%>%
-  mutate(Dataset = "ICP_forests_level_II")%>%
-  #dplyr::select(-EUNIS_ID,-sample_id, -code_plot,-description)%>%
-  rename(Plot_subplot_ID = Spatial_ID, PlotID = level_II_ID, Plot_size = total_sample_area)%>%
-  rename_with(~ paste0(toupper(substr(.x, 1, 1)), substr(.x, 2, nchar(.x))))%>%
-  dplyr::select(Database,Dataset, Country, PlotID, Plot_subplot_ID, Sample_id_original, Survey_number_original, EUNIS_ID, Plot_size, Latitude, Longitude, Survey_number, Survey_year, Species_name, Layer, Abundance, EUNIS.code, EUNIS.code.name)%>%
-  rename(EUNIS_ID_old = EUNIS_ID)%>%
-  mutate(EUNIS_ID_new = ifelse(is.na(Plot_subplot_ID), PlotID, Plot_subplot_ID)%>%
-           paste(., Survey_year, sep = "_"))%>%
-  filter(Layer != "M")%>% #Remove the moss layer
-  filter(Abundance!= -99)#This is a placeholder for NA
-
-EUNIS_plotlist<-ICP_veg_EUNIS%>%
-  distinct(PlotID,Plot_subplot_ID,Plot_size,EUNIS_ID_old,Survey_year)%>%
-  left_join(subplotIDs, by = c("PlotID", "Plot_subplot_ID", "Plot_size"))%>%
-  ungroup()%>%
-  mutate(Plot_subplot_ID = new_Plot_subplot_ID)%>%
-  select(-new_Plot_subplot_ID,-Plot_size)%>%
-  distinct()%>%
-  left_join(altitudes, by = "PlotID")
-
-EUNIS_plotlist%>%
-  distinct(PlotID, Plot_subplot_ID) #correct 2742
-
-EUNIS_plotlist%>%
-  filter(is.na(Altitude))
-
-EUNIS_to_do<-ICP_veg_final%>%
-  distinct(PlotID, Plot_subplot_ID, EUNIS.code, EUNIS.code.name)%>%
-  filter(is.na(EUNIS.code.name))%>%
-  left_join(altitudes, by = "PlotID")
-
-
-
-write_csv(EUNIS_plotlist,"Data_products/ICP_EUNIS_plotlist.csv")
-write_csv(EUNIS_to_do,"Data_products/ICP_EUNIS_to_do.csv")
+write_csv(ICP_veg_final,"ICP_veg_final.csv") #2742 Plot, subplot combinations. 2827 if changeable plot size over time is accounted for
 
